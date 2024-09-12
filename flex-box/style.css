@@ -1,0 +1,385 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0px auto;
+
+}
+
+.navbar {
+
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+
+}
+
+.nav-contnet {
+    display: flex;
+    gap: 20px;
+
+}
+
+.nav-btn {
+    border: none;
+    padding: 10px 20px;
+    background-color: #0095F6;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.nav-text {
+    font-weight: 600;
+    color: #0095F6;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.logo-img {
+
+    height: 40px;
+    width: 130px;
+    mix-blend-mode: multiply;
+    object-fit: cover;
+
+}
+
+.nav-divider {
+
+    border-bottom: 1px solid lightgray;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 20px 100px;
+}
+
+.profile {
+    /* height: 300px;
+    width: 300px;
+    background-color: red;
+    border: 1px solid black; */
+}
+
+.username {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.username-text {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.company-img {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+}
+
+.profile-img {
+    display: flex;
+    align-items: center;
+
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.user-btn {
+    padding: 10px 15px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.following {
+    display: flex;
+    gap: 20px;
+}
+
+.following-text {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.company-name {
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.chip {
+    width: 65px;
+    padding: 10px;
+    border-radius: 24px;
+    background-color: lightgray;
+    margin: 0px;
+}
+
+.text-info {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.comp-text {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: rgb(115, 115, 115);
+    margin: 0px;
+}
+
+
+
+
+.outer-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+
+.story {
+    display: flex;
+    gap: 30px;
+    margin: 60px 0px;
+}
+
+.story-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.story-avtar {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.user-info {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.user-posts {
+    display: flex;
+    justify-content: center;
+    gap: 30px
+}
+
+.userinfo-text {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+
+
+}
+
+.userinfo-text-gray {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: gray;
+}
+
+.main-card {
+    position: relative;
+}
+
+.post-btn {
+    border: none;
+    border-radius: 24px;
+    padding: 10px 10px;
+    background-color: #0095F6;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 10;
+    left: 40%;
+    z-index: 3;
+}
+
+.post-card-main {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+
+.card {
+    width: 305px;
+    height: 300px;
+    border: 1px solid lightgray;
+    background-color: #0095F6;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.post-card {
+    position: relative;
+}
+
+.card-icon {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+
+    right: 10px;
+    z-index: 2;
+}
+
+.card-center-icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    display: flex;
+
+    gap: 10px;
+
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+}
+
+.flex-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon-text {
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.account-section {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.account-card {
+    width: 200px;
+
+    /* padding: 10px; */
+    border: 1px solid lightgray;
+    background-color: #FFF;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+.acount-img {
+
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    margin-top: 10px;
+    background-position: center;
+}
+
+.flex-account {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.verfied-account {
+    height: 20px;
+    width: 20px;
+    mix-blend-mode: multiply;
+
+}
+
+.border-account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    width: 180px;
+    border-top: 1px solid lightgray;
+    color: #0095F6;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.designation {
+    margin-top: 0;
+    color: gray;
+}
+
+.main-account {
+    position: relative;
+}
+
+.account-backward {
+    position: absolute;
+    top: 38%;
+    left: 50;
+}
+
+.account-forward {
+    position: absolute;
+    top: 38%;
+    right: 50;
+}
+
+.user {
+    font-size: 16px;
+    font-weight: bold;
+}
