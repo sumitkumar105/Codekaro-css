@@ -1,0 +1,277 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgba(0, 0, 0, 0.963);
+    font-family: "Netflix Sans",
+        "Helvetica Neue",
+        "Segoe UI",
+        Roboto,
+        Ubuntu,
+        sans-serif;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.hero-img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.9000) 0.000%, rgba(0, 0, 0, 0.8965) 8.500%, rgba(0, 0, 0, 0.8861) 17.00%, rgba(0, 0, 0, 0.8688) 25.50%, rgba(0, 0, 0, 0.8444) 34.00%, rgba(0, 0, 0, 0.8132) 42.50%, rgba(0, 0, 0, 0.7750) 51.00%, rgba(0, 0, 0, 0.7368) 59.50%, rgba(0, 0, 0, 0.7056) 68.00%, rgba(0, 0, 0, 0.6813) 76.50%, rgba(0, 0, 0, 0.6639) 85.00%, rgba(0, 0, 0, 0.6535) 93.50%, rgba(0, 0, 0, 0.6500) 102.0%);
+
+}
+
+.hero-nav {
+    width: 85%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.hero-btngroup {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.en-button {
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.432);
+    border: 1px solid lightgray;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.login-btn {
+    padding: 10px 30px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero-content {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+
+}
+
+.hero-heading {
+    width: 700px;
+    color: white;
+    font-size: 58px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-subheading {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+}
+
+.hero-description {
+    font-size: 18px;
+
+    text-align: center;
+}
+
+.hero-contnet-sub {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero-input {
+    width: 300px;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid lightgray;
+    background-color: rgba(211, 211, 211, 0.311);
+    color: white;
+
+
+}
+
+.hero-btn {
+    border: none;
+    padding: 10px 25px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.right-icon {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.header {
+    border-bottom: 2px solid red;
+    margin-bottom: 10px;
+
+
+}
+
+.hero-divider {
+    height: 100%;
+    width: 100%;
+    border: solid .25rem transparent;
+    background-color: chartreuse;
+
+
+}
+
+.trending {
+
+    margin: 30px 95px;
+}
+
+.trending-heading {
+    color: white;
+}
+
+.trending-btn {
+    display: flex;
+    gap: 20px;
+}
+
+.trending-section {
+    width: 90%;
+    margin: 20px auto;
+    overflow-x: scroll;
+    position: relative;
+}
+
+.movies-card {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    object-fit: cover;
+    background-position: center;
+    background-image: url(https://occ-0-64-58.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABViz9ZecNphqw3WchFRSmcPQfa6jTPR2HJ3q5uE6YseecZbG1QsLa6-VwpvkTjwST0vcgfF6ZMjzU4hRUIjIAwYziQ43VVSMfGBU0NOkegvpToxqEzBVb_sLU1pQo8Wr2fpszk8rYjOGFBTTajoDatkjLwQchYicUN5q1p00TeZoGVa2Mveo61fzz6M6xkSf1zRcmB2avxCOjA6wBlHsWdq4jPLcehPPjNY3mb44xLdPGmeaey7ZqwZCOmH0oKHC1npICSLGOiGWlrxYI_luvkuPiDM53HLHqPNMzm_3fU4KlFkzqpUZvEjvvzPQGiOXfJFvYjYK1mXLgjOmpoxBqlo.webp?r=3f1);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+
+.trending-movies {
+    margin: 20px 30px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.scroll-btn {
+    position: absolute;
+    background-color: gray;
+
+    top: 50%;
+    right: -50px;
+    padding: 50px 10px;
+    transform: translate(-50%, -50%);
+}
+
+.scroll-btn-2 {
+    position: absolute;
+    background-color: gray;
+
+    top: 50%;
+    left: -10px;
+    padding: 50px 10px;
+    margin: 0px 30px;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.sectoion-relase {
+    margin-top: 50px;
+}
+
+.relase-heading {
+    color: white;
+}
+
+.relase-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+
+    background-color: #1C1932;
+
+    padding: 0px 10px;
+    border-radius: 16px;
+    color: white;
+
+}
+
+.relase-icon {
+    display: flex;
+    justify-content: end;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.faq-heasding {
+    color: white;
+    font-size: 25px;
+}
+
+.faq-box {
+    width: 100%;
+    padding: 10px;
+    background-color: #414141;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.faq-box-heading {
+    color: white;
+}
